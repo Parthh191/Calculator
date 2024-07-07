@@ -105,5 +105,10 @@ h3{
     a{
         margin-left: 7em;
     }
-
+    h3{
+        margin-left: -8em;
+    }
+    h1{
+        margin-left: 0;
+    }
 }
