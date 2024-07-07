@@ -85,11 +85,12 @@ h3{
     
     main{
         width:350px;
+        text-align: center;
     }
     .button{
         max-width: 7px;
         height: auto;
-        margin:0.3em;
+        margin:0.2em;
     }
     .reset{
         font-size: 1em;
