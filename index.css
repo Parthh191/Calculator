@@ -16,6 +16,9 @@ a{
     text-decoration: none;
     color: black;
 }
+.noDisplay{
+    display: none;
+}
 .input{
     background-color:rgb(34, 38, 55) ;
     border-radius: 10px;
