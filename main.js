@@ -36,12 +36,12 @@ Array.from(buttons).forEach((button)=>{
         }
     });
 });
-let themes=document.querySelectorAll('input[name="theme"]');
-document.getElementById("1in").checked = true;
+const themes=document.querySelectorAll('input[name="theme"]');
+document.getElementById("theme-1").checked = true;
 themes.forEach((theme)=>{
     theme.addEventListener('click',(e)=>{
         if(theme.checked){
-            if(e.target.id==="2in"){
+            if(e.target.id==="theme-2"){
                 buttons.forEach(button => {
                     button.style.background = 'white';
                     button.style.color = 'black';
@@ -60,7 +60,7 @@ themes.forEach((theme)=>{
                     label.style.color = 'black';
                 });
             }
-            else if(e.target.id==="3in"){
+            else if(e.target.id==="theme-3"){
                 buttons.forEach(button => {
                     button.style.background = 'rgb(45, 7, 81)';
                     button.style.color = 'rgba(252, 241, 26, 0.984)';
