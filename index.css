@@ -27,6 +27,7 @@ a{
     width:350px;
     height:100px;
     font-size: 1em;
+    cursor:none;
 }
 .button{
     width: 70px;
