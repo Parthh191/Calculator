@@ -63,11 +63,11 @@ nav{
     display: flex;
 }
 
-label{
+nav label{
     display: grid;
 
 }
-label input{
+nav label input{
     accent-color: rgb(255, 60, 0);
     width: 20px;
     cursor: pointer;
