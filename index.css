@@ -89,6 +89,10 @@ h3{
     margin-top: 0.5em;
     margin-left: -7em;
 }
+aside{
+    display: grid;
+}
 aside label{
-    display: none;
+    margin-bottom: 1em;
+    text-align: center;
 }
